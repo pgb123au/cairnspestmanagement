@@ -1,0 +1,154 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why do I get rats and mice in the Cairns wet season?",
+      "acceptedAnswer": { "@type": "Answer", "text": "When the wet season arrives, heavy rain floods burrows and outdoor harbourage, and rats and mice move indoors and up into roof voids looking for dry shelter and food. Cairns roof rats in particular are strong climbers and use overhanging branches, fences and cabling to get into ceilings and wall cavities. Add year-round warmth and continuous breeding, and a small problem becomes a colony quickly — which is why we pair baiting with proofing and roof-void treatment rather than just dropping a few baits." }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does rodent control cost in Cairns?",
+      "acceptedAnswer": { "@type": "Answer", "text": "2026 Cairns bands: a standard rodent treatment with tamper-resistant bait stations and an inspection is roughly $180–$350 depending on the size of the property and how much roof-void and external baiting is needed. Proofing (sealing entry points) and ongoing station servicing are quoted on top, and many homes near bushland or waterways keep stations on an ongoing service so numbers never build back up. We quote after a quick inspection." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are rodent baits safe around children and pets?",
+      "acceptedAnswer": { "@type": "Answer", "text": "We use APVMA-registered rodenticides placed inside locked, tamper-resistant bait stations that children and pets cannot open, positioned in roof voids, sub-floors and along external runs — never loose. Where there are pets or small children, or a risk to wildlife, we can lean on snap-trap stations and exclusion work instead of, or alongside, baiting. We will always tell you where every station is so you can keep an eye on them." }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between baiting and proofing?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Baiting (and trapping) removes the rodents that are there now. Proofing — sealing gaps around pipes, eaves, weep holes, roof junctions and under doors, and cutting back overhanging branches — stops new ones getting in. Baiting without proofing means you are treating the same access point forever; the two together are what actually solves a Cairns rodent problem, especially on roof-rat jobs where the entry is up high." }
+    }
+  ]
+};
+---
+<Layout
+  title="Rodent Control Cairns | Rats & Mice, Wet-Season Influx"
+  description="Rodent control across Cairns — rat and mouse baiting, proofing and roof-void treatment for the wet-season influx. Tamper-resistant stations, family-safe, free quote."
+  canonical="https://cairnspestmanagement.com.au/services/rodent-control/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Rats &amp; mice &middot; roof void &middot; wet-season influx</span>
+      <h1>Rodent control in <span class="accent">Cairns</span>.</h1>
+      <p class="hero-sub">
+        When the wet season hits, rats and mice head indoors and up into roof
+        voids for dry shelter. We treat the lot &mdash; tamper-resistant baiting,
+        roof-void and sub-floor work, and proofing to seal the entry points so
+        they cannot get back in. Family-safe stations, placed safely out of reach.
+        From about $180.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>Baiting, roof-void treatment and proofing.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>The wet-season rodent influx.</h3>
+        <p>
+          Cairns rodent jobs spike when the rains arrive. Heavy wet-season
+          downpours flood outdoor burrows and harbourage, and rats and mice push
+          indoors and up into ceilings looking for somewhere dry. <strong>Roof
+          rats</strong> are the main culprit here &mdash; agile climbers that run
+          overhanging branches, fences and power cabling straight into the roof
+          void. Combined with year-round warmth and continuous breeding, a couple
+          of rodents become a colony fast, so we treat the whole pathway rather
+          than dropping a few baits and hoping.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Inspection first.</h3>
+        <p>
+          We start by working out what you have and how it is getting in &mdash;
+          droppings, gnaw marks, rub marks and runs in the roof void, sub-floor and
+          along external walls, plus the likely entry points (gaps at eaves and
+          roof junctions, around pipe penetrations, weep holes, under doors). Rats
+          and mice need slightly different placement and bait, so identifying the
+          species and the runs decides where everything goes.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Baiting and trapping &mdash; safely.</h3>
+        <p>
+          We place <strong>tamper-resistant, lockable bait stations</strong> in the
+          roof void, sub-floor and along external runs &mdash; never loose bait
+          where children, pets or wildlife could reach it. Where there are pets or
+          small kids, or a wildlife risk, we use snap-trap stations and exclusion
+          work instead of, or alongside, baiting. Everything we use is
+          <strong>APVMA-registered</strong> and placed by a licensed technician,
+          and we will show you exactly where each station sits.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Proofing &mdash; the part most people skip.</h3>
+        <p>
+          Baiting clears the current rodents; <strong>proofing</strong> stops the
+          next lot. We seal the gaps rats and mice use &mdash; around pipes, eaves,
+          roof junctions, weep holes and under doors &mdash; and flag overhanging
+          branches and cabling that give roof rats a highway in. Bait without
+          proofing means treating the same entry point forever. The two together
+          are what actually solves a Cairns rodent problem, and on rainforest-backed
+          or bushland-edge homes we often keep stations on an ongoing service so
+          numbers never rebuild.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Why we do not cut corners.</h3>
+        <p>
+          The lazy version of this job is a handful of loose baits and no
+          inspection &mdash; which risks poisoning pets, leaves the entry points
+          wide open, and can leave a dead rodent decomposing in an inaccessible
+          cavity. We inspect, bait safely in locked stations, proof the building
+          and follow up. It costs a little more than a bait drop and it actually
+          works.
+        </p>
+
+        <p>
+          Rodents often arrive alongside other pests in the wet &mdash; see
+          <a href="/services/general-pest-control/">general pest control</a> and
+          <a href="/services/cockroach-ant-control/">cockroach &amp; ant control</a>,
+          or the <a href="/services/commercial-pest-control/">commercial program</a>
+          for food premises where rodent compliance is mandatory.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/edmonton/">Edmonton</a>
+        <a class="area-pill" href="/smithfield/">Smithfield</a>
+        <a class="area-pill" href="/redlynch/">Redlynch</a>
+        <a class="area-pill" href="/trinity-beach/">Trinity Beach</a>
+        <a class="area-pill" href="/earlville/">Earlville</a>
+        <a class="area-pill" href="/cairns-region/">All Cairns Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Get on top of the rats and mice.</h2>
+        <p>Baiting, roof-void treatment and proofing. Family-safe locked stations. Free quote on your home.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Book online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

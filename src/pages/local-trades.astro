@@ -1,0 +1,185 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I check a Cairns pest controller is licensed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anyone applying pesticides commercially in Queensland — for cockroaches, ants, rodents or termites — must hold a current Pest Management Technician licence, administered by Queensland Health under the Medicines and Poisons Act 2019. Ask to see it, and ask whether they hold the relevant competency for the work (timber pest inspection to AS 4349.3 is a separate competency again). AEPMA, the industry body, also maintains a member register. Verify before you let anyone treat your home or business."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the chemicals used in pest control safe and approved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Australia every pesticide a technician uses must be registered by the APVMA (Australian Pesticides and Veterinary Medicines Authority), and it must be applied strictly to the label rate. The label sets the dose, where it can be used, and any re-entry period. A reputable Cairns operator will only use APVMA-registered products, apply them to label, and be able to provide the product label and safety data sheet on request — which is also what a commercial food premises needs for its records."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does tropical Cairns need different pest treatment to southern Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The wet tropics never get a winter knock-back, so cockroaches, ants, mosquitoes and rodents breed year-round and re-colonise fast after a one-off treatment — which is why recurring plans suit Cairns. Termites are the bigger difference: Cairns sits in the range of two of Australia's most destructive species, Coptotermes acinaciformis and the giant northern termite Mastotermes darwiniensis. Barriers and inspections set up only for southern Coptotermes can underestimate Mastotermes, so termite work here must be done to AS 3660 with both species in mind."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should a Cairns home have pest control and a termite inspection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For general pests, a 6 or 12-monthly recurring treatment keeps a tropical home consistently clear because breeding never stops. For termites, AS 3660.2 and the QBCC advise a competent inspection at least every 12 months — and in high-pressure spots like rainforest-backed Redlynch, or any property with sub-floor moisture or a past infestation, many owners move to 6-monthly. Skipping inspections typically voids any insurance avenue for termite damage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find official pest and food-safety information for Cairns?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Queensland Health covers pest management licensing and chemical use; the APVMA registers the products; Standards Australia publishes AS 3660 (termite management) and AS 4349.3 (timber pest inspection); AEPMA is the industry body; and Cairns Regional Council handles local food-business licensing and environmental health, including the pest-management records a food premises must keep. Links to all of these are on this page."
+      }
+    }
+  ]
+};
+---
+<Layout
+  title="Cairns Pest Control Resources & Regulations | Cairns Pest Management"
+  description="Official references for Cairns pest control — Queensland Health technician licensing, APVMA chemical approvals, AS 3660 and AS 4349.3 standards, AEPMA, and Cairns Regional Council food-safety."
+  canonical="https://cairnspestmanagement.com.au/local-trades/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Pest control resources &amp; regulations</span>
+      <h1>Cairns pest control <span class="accent">resources &amp; regulations</span>.</h1>
+      <p class="hero-sub">
+        Pest control in Queensland is a licensed, standards-driven trade &mdash;
+        who can apply chemicals, which products are allowed, and how termite work
+        must be done are all set by law and Australian Standards. Below are the
+        official references every Cairns homeowner and business should bookmark,
+        plus how the rules play out in our wet-tropics climate.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Free pest control quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">Licensing, chemicals &amp; standards</span>
+      <h2>The regulatory references for Cairns pest control.</h2>
+      <div class="divider"></div>
+      <div style="max-width:65rem;">
+        <ul style="margin-top:1rem;">
+          <li style="margin-bottom:0.75rem;">
+            <strong>Queensland Health &mdash; Pest Management Technician
+            licence</strong> &mdash; the licence anyone applying pesticides
+            commercially in Queensland must hold, under the Medicines and Poisons
+            Act 2019. Covers general pest, rodent and timber pest work, plus the
+            extra requirements for high-risk and sensitive places.
+            <a href="https://www.health.qld.gov.au/system-governance/licences/medicines-poisons/pest-management/technicians" target="_blank" rel="external noopener">health.qld.gov.au &mdash; pest management technicians</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>APVMA &mdash; Australian Pesticides and Veterinary Medicines
+            Authority</strong> &mdash; the national regulator that registers every
+            pesticide and termiticide legally usable in Australia. Products must be
+            registered and applied to label.
+            <a href="https://www.apvma.gov.au/" target="_blank" rel="external noopener">apvma.gov.au</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>AS 3660 &mdash; Termite management</strong> &mdash; the
+            Australian Standard for termite management. Three parts: new building
+            work (3660.1), assessment of existing buildings (3660.2), and
+            assessment criteria (3660.3).
+            <a href="https://store.standards.org.au/" target="_blank" rel="external noopener">Standards Australia</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>AS 4349.3 &mdash; Timber pest inspection</strong> &mdash; the
+            Australian Standard for timber pest inspection reports on existing
+            residential buildings. Pre-purchase inspections should be carried out
+            to this standard.
+            <a href="https://store.standards.org.au/" target="_blank" rel="external noopener">Standards Australia</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>AEPMA &mdash; Australian Environmental Pest Managers
+            Association</strong> &mdash; the national industry body for pest
+            managers. Its code of conduct and member register are a useful
+            consumer reference.
+            <a href="https://www.aepma.com.au/" target="_blank" rel="external noopener">aepma.com.au</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>Cairns Regional Council &mdash; environmental health &amp;
+            food businesses</strong> &mdash; local food-business licensing and
+            environmental health, including the pest-management records a food
+            premises must keep for its food-safety obligations.
+            <a href="https://www.cairns.qld.gov.au/" target="_blank" rel="external noopener">cairns.qld.gov.au</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#f9fafb;">
+    <div class="section-inner">
+      <span class="section-eyebrow">Tropical pest specifics</span>
+      <h2>How the rules play out in wet-tropics Cairns.</h2>
+      <div class="divider"></div>
+      <div style="max-width:65rem;">
+        <h3>Year-round breeding &mdash; why recurring beats one-off.</h3>
+        <p>
+          The wet tropics never deliver a cold snap to knock pests down, so
+          cockroaches, ants, mosquitoes and rodents breed continuously and
+          re-colonise within weeks of a single treatment. That is not a sales
+          pitch &mdash; it is the climate, and it is why a 6 or 12-monthly
+          recurring plan keeps a Cairns home clear far more reliably than ad-hoc
+          call-outs. See our <a href="/services/general-pest-control/">general pest
+          control</a> for how a recurring plan works.
+        </p>
+        <h3 style="margin-top:1.5rem;">Two destructive termites, not one.</h3>
+        <p>
+          Cairns sits in the range of both <strong>Coptotermes acinaciformis</strong>
+          and the giant northern termite <strong>Mastotermes darwiniensis</strong>.
+          Mastotermes attacks live trees, garden timbers, cable insulation and even
+          soft concrete, so termite protection here has to be rated for both species
+          under AS 3660 &mdash; not just set up for southern Coptotermes. Read more
+          on <a href="/services/termite-control/">termite inspections &amp;
+          treatment</a> and the high pressure in rainforest-backed
+          <a href="/redlynch/">Redlynch</a>.
+        </p>
+        <h3 style="margin-top:1.5rem;">Food premises and the wet-season rodent influx.</h3>
+        <p>
+          Cairns food businesses must keep pest-management records as part of their
+          HACCP food-safety obligations, and the wet season&rsquo;s rodent influx
+          makes documented, scheduled servicing essential rather than optional. See
+          our <a href="/services/commercial-pest-control/">commercial pest
+          control</a> and <a href="/services/rodent-control/">rodent control</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--c-navy);color:#fff;">
+    <div class="section-inner" style="text-align:center;">
+      <h2 style="color:#fff;">Free quote &mdash; honest Cairns pest control.</h2>
+      <p style="opacity:0.85;max-width:50rem;margin:1rem auto 2rem;">
+        General pest, termites, cockroaches, ants, rodents and commercial programs
+        &mdash; licensed technicians, APVMA-registered products, and a 12-month
+        warranty on general pest work.
+      </p>
+      <div class="hero-actions" style="justify-content:center;">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+</Layout>

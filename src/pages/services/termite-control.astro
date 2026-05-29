@@ -1,0 +1,167 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a termite inspection cost in Cairns?",
+      "acceptedAnswer": { "@type": "Answer", "text": "2026 Cairns bands: an AS 3660.2 annual termite inspection is about $235–$380 for a standard home; a more detailed AS 4349.3 pre-purchase timber pest inspection (the written report buyers get before settlement) is $350–$650; a combined building-and-pest inspection runs higher again. Treatment is separate — colony control starts around $440, a full chemical soil barrier is roughly $1,500–$5,000 depending on the size and footprint of the home, and a baiting system is about $1,800–$3,500 plus ongoing monitoring." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are Cairns termites worse than down south?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Two reasons. First, there is no winter slowdown — in the tropical north termites forage and grow colonies all year. Second, Cairns sits in the range of TWO highly destructive species: Coptotermes acinaciformis (the worst timber-eater in Australia) and Mastotermes darwiniensis, the giant northern termite that also attacks live trees, cable insulation and even soft concrete. Barriers and inspections tuned only for southern Coptotermes can underestimate Mastotermes, so termite work here has to be done to AS 3660 with both species in mind." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Queensland require annual termite inspections?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It is not a black-letter law, but AS 3660.2 (the Australian Standard) and the QBCC both advise a competent inspection at least every 12 months, and that is the benchmark used to judge whether reasonable care was taken. In high-pressure tropical Cairns, and especially on rainforest-backed or sub-floor-moisture properties, many owners move to 6-monthly. Skip inspections and most insurers will decline a termite-damage claim, leaving you to fund repairs yourself — so an annual inspection is the cheapest protection you can buy." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a chemical barrier and a baiting system?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A chemical soil barrier (e.g. Termidor SC) is a non-repellent termiticide injected into the soil around the building. Termites passing through pick it up and pass it on, and it protects for roughly 8 years. A baiting system (e.g. Sentricon) is a ring of in-ground stations holding a growth-regulator bait — foragers carry it back and collapse the whole colony, with the stations monitored on an ongoing basis. Barriers suit fast, broad protection; baiting suits colony elimination and sites where drilling or trenching is difficult. On high-pressure Cairns properties we often combine both." }
+    }
+  ]
+};
+---
+<Layout
+  title="Termite Inspection & Treatment Cairns | AS 3660"
+  description="Termite inspections and treatment across Cairns — AS 3660 inspections, Termidor chemical barriers and Sentricon baiting. Coptotermes and Mastotermes specialists. Licensed, free quote."
+  canonical="https://cairnspestmanagement.com.au/services/termite-control/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">AS 3660 &middot; AS 4349.3 &middot; Coptotermes &amp; Mastotermes</span>
+      <h1>Termite inspections &amp; treatment in <span class="accent">Cairns</span>.</h1>
+      <p class="hero-sub">
+        Cairns is one of the highest termite-pressure cities in Australia &mdash;
+        two destructive species, active year-round. We run AS&nbsp;3660 inspections,
+        install Termidor chemical barriers and Sentricon baiting systems, and treat
+        active infestations. Inspections from about $235; barriers $1,500&ndash;$5,000.
+        Written report within 24 hours.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Book an inspection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>Inspections, barriers and treatment.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>Two species, not one &mdash; why Cairns is different.</h3>
+        <p>
+          Australia has hundreds of termite species but only a handful do real
+          damage. Cairns has the worst two. <strong>Coptotermes
+          acinaciformis</strong> &mdash; the most destructive termite on the
+          continent &mdash; builds large central colonies and forages up to 100m
+          through soil to reach timber, growing to a million-strong colony inside
+          5&ndash;7 years. We also sit in the range of <strong>Mastotermes
+          darwiniensis</strong>, the giant northern termite, which attacks live
+          trees, garden timbers, cable insulation and even soft concrete. Treating
+          Cairns like a southern city is a mistake &mdash; all our work is done to
+          AS&nbsp;3660 with both species in mind.
+        </p>
+
+        <h3 style="margin-top: 2rem;">The AS 3660 inspection.</h3>
+        <p>
+          A proper inspection is not a 20-minute walk-around. To AS&nbsp;3660.2 we
+          methodically cover the <strong>sub-floor, roof void, full perimeter,
+          garden and fence line, wet areas and outbuildings</strong>, taking
+          moisture-meter readings and probing suspect timbers. On the old elevated
+          Queenslanders common around Cairns the sub-floor tells most of the story;
+          on slab-on-ground estate homes we work the perimeter weep holes,
+          expansion joints and slab edge. Where activity is suspected we use a
+          borescope and thermal imaging on stud walls. You get a written report
+          within 24 hours. Pre-purchase buyers should always request the more
+          detailed <strong>AS&nbsp;4349.3</strong> timber pest inspection.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Chemical soil barriers.</h3>
+        <p>
+          A non-repellent termiticide such as <strong>Termidor SC</strong> is
+          injected into a treated zone in the soil around the building. Termites
+          cannot detect it, pass through it, pick it up and transfer it through the
+          colony. It gives broad protection for roughly 8 years and is the workhorse
+          for high-risk properties and active-infestation response. A standard
+          residential barrier runs $1,500&ndash;$5,000 depending on the size and
+          shape of the footprint and how much drilling through paths and slabs is
+          needed.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Baiting systems.</h3>
+        <p>
+          A baiting system such as <strong>Sentricon</strong> places in-ground
+          stations around the perimeter. Foraging termites feed on a growth
+          regulator and carry it back, eliminating the colony at the source &mdash;
+          including the queen. Stations are then monitored on an ongoing basis.
+          Install is about $1,800&ndash;$3,500 plus annual monitoring. Baiting is
+          ideal where trenching is awkward, where you want to wipe out a known
+          colony, and as the interior half of a combined program. On the highest-
+          pressure Cairns blocks we often run a chemical barrier and baiting
+          together.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Licensing and why we do not cut corners.</h3>
+        <p>
+          Termite work in Queensland needs a licensed Queensland
+          <strong>Pest Management Technician</strong> (administered by Queensland
+          Health under the Medicines and Poisons Act 2019) with the right
+          competency for AS&nbsp;4349.3 timber pest inspection; barrier installs on
+          new builds also engage QBCC requirements. We use only
+          <strong>APVMA-registered</strong> termiticides, applied to label. The
+          corners cut in this trade are the dangerous ones &mdash; skipping the
+          sub-floor or roof void, guessing instead of moisture-metering, or
+          installing an under-strength barrier. A missed colony in a Cairns home
+          can mean tens of thousands in structural repairs, so we inspect fully and
+          document everything for your insurer.
+        </p>
+
+        <p>
+          Termites are only part of the picture in the tropics &mdash; see our
+          <a href="/services/general-pest-control/">general pest control</a> and
+          <a href="/services/rodent-control/">rodent control</a>, or read about the
+          high termite pressure in rainforest-backed
+          <a href="/redlynch/">Redlynch</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/edmonton/">Edmonton</a>
+        <a class="area-pill" href="/smithfield/">Smithfield</a>
+        <a class="area-pill" href="/redlynch/">Redlynch</a>
+        <a class="area-pill" href="/trinity-beach/">Trinity Beach</a>
+        <a class="area-pill" href="/earlville/">Earlville</a>
+        <a class="area-pill" href="/cairns-region/">All Cairns Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Book your termite inspection.</h2>
+        <p>AS 3660 inspection, written report within 24 hours, treatment plan if needed. Two-species specialists.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Book online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

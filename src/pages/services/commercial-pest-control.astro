@@ -1,0 +1,156 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does a commercial pest control program in Cairns cover?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A commercial program is a scheduled, documented service rather than a one-off treatment. It covers the pests that threaten a food or hospitality business in the tropics — cockroaches, ants, rodents, flies and stored-product pests — across the kitchen, storerooms, bins, dining and back-of-house areas, plus a bait-station map and a service report at every visit. Frequency is usually monthly or quarterly depending on the risk. We tailor it to cafes, restaurants, body-corporate, rentals, offices and retail across the Cairns region." }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does commercial pest control cost in Cairns?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Commercial pricing is per-site rather than a fixed rate, because it depends on the size of the premises, the pest risk, the servicing frequency and the documentation required. A small cafe on a quarterly program is very different from a busy restaurant on monthly servicing. We quote after a site walk-through, and the program is set up as an ongoing contract with a fixed per-visit fee so you can budget for it. Ask us for a walk-through and quote." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide documentation for food-safety audits and HACCP?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — that is the point of a commercial program. Every visit produces a service report, and we maintain a site pest-management file with a bait-station map, treatment records, product labels and safety data sheets, trend monitoring and recommendations. That file is what your auditor, your local council environmental health officer and your HACCP food-safety program will want to see. Keeping it current is part of meeting your Queensland food-premises obligations." }
+    },
+    {
+      "@type": "Question",
+      "name": "Will you work around our trading hours?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Food and hospitality businesses cannot have a technician spraying through service, so we schedule around your trading — early mornings, after close, or quiet periods — and use methods (gel baits, lockable stations, targeted treatments) that let you keep operating safely. The whole program is built to be low-disruption and audit-ready, not to shut you down for the day." }
+    }
+  ]
+};
+---
+<Layout
+  title="Commercial Pest Control Cairns | HACCP-Aligned Programs"
+  description="Commercial pest control across Cairns — HACCP-aligned programs for cafes, restaurants, body-corporate and rentals. Documented monthly or quarterly servicing, audit-ready, free site quote."
+  canonical="https://cairnspestmanagement.com.au/services/commercial-pest-control/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Cafes &middot; restaurants &middot; body-corporate &middot; rentals</span>
+      <h1>Commercial pest control in <span class="accent">Cairns</span>.</h1>
+      <p class="hero-sub">
+        Scheduled, documented, audit-ready pest programs for Cairns food and
+        hospitality businesses. We keep cockroaches, ants, rodents and flies out of
+        your kitchen, storerooms and dining areas with HACCP-aligned servicing and
+        the paperwork your environmental health officer expects. Monthly or
+        quarterly, scheduled around your trading. Quoted per site.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a site quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>A documented program, not a one-off spray.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>Who it is for.</h3>
+        <p>
+          Anywhere a pest sighting is a real problem &mdash; <strong>cafes,
+          restaurants and takeaways, pubs and clubs, bakeries, supermarkets and
+          food retail, body-corporate and strata complexes, holiday lets and
+          rental managers, offices, childcare, aged care and medical rooms</strong>.
+          In tropical Cairns the pest load is year-round, and for a food business a
+          single bad review or a failed inspection is far more expensive than the
+          program that prevents it.
+        </p>
+
+        <h3 style="margin-top: 2rem;">What a program covers.</h3>
+        <p>
+          We treat the pests that threaten a tropical commercial site &mdash;
+          <strong>cockroaches, ants, rodents, flies and stored-product
+          pests</strong> &mdash; across the kitchen, food storage, bin areas,
+          dining and back-of-house. The site is set up with a bait-station map and
+          monitored on a fixed schedule. Each visit we re-treat as needed, check and
+          re-bait stations, record what we find, and flag any hygiene or
+          proofing issues (gaps, standing water, bin practices) that are inviting
+          pests in.
+        </p>
+
+        <h3 style="margin-top: 2rem;">HACCP, food-safety and Queensland Health.</h3>
+        <p>
+          Pest management is a required element of a food business&rsquo;s
+          <strong>HACCP-based food-safety program</strong> and of meeting
+          Queensland food-premises obligations. We keep a current site
+          pest-management file &mdash; service reports, bait-station map, treatment
+          records, product labels and safety data sheets, trend monitoring and
+          recommendations &mdash; which is exactly what your auditor and your local
+          council environmental health officer will ask to see. Treatments in
+          sensitive food-handling areas are planned under an activity risk
+          management plan as required for high-risk and sensitive places.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Scheduled around your trading.</h3>
+        <p>
+          You cannot have a technician working through a lunch rush, so we service
+          <strong>early mornings, after close or in quiet periods</strong>, and use
+          low-disruption methods &mdash; gel baits, lockable stations and targeted
+          treatments &mdash; that let you keep operating safely. Frequency is matched
+          to your risk: high-volume kitchens typically monthly, lower-risk sites
+          quarterly.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Licensing and why we do not cut corners.</h3>
+        <p>
+          All work is carried out by a licensed Queensland <strong>Pest Management
+          Technician</strong> using <strong>APVMA-registered</strong> products to
+          label, and as an <strong>AEPMA</strong> member we follow the industry
+          code. The corner cut on cheap commercial work is skipping the
+          documentation &mdash; which is the very thing that fails you at audit. We
+          treat the site properly and keep the file audit-ready, so a surprise
+          inspection is a non-event.
+        </p>
+
+        <p>
+          Residential property too? See
+          <a href="/services/general-pest-control/">general pest control</a>,
+          <a href="/services/cockroach-ant-control/">cockroach &amp; ant control</a>
+          and <a href="/services/rodent-control/">rodent control</a>, or view our
+          <a href="/cairns-region/">Cairns service area</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/edmonton/">Edmonton</a>
+        <a class="area-pill" href="/smithfield/">Smithfield</a>
+        <a class="area-pill" href="/redlynch/">Redlynch</a>
+        <a class="area-pill" href="/trinity-beach/">Trinity Beach</a>
+        <a class="area-pill" href="/earlville/">Earlville</a>
+        <a class="area-pill" href="/cairns-region/">All Cairns Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Set up your commercial program.</h2>
+        <p>HACCP-aligned, audit-ready, scheduled around trading. Free site walk-through and quote.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Book a walk-through</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

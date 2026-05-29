@@ -1,0 +1,158 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What pests does a general pest treatment in Cairns cover?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A standard general pest treatment covers the common crawling pests of a tropical home — cockroaches (German and American), ants, spiders, silverfish and often the odd nuisance pest like crickets and cockroach-following geckos. It is an internal and external residual treatment plus targeted baiting. It does NOT cover termites (a separate AS 3660 inspection and barrier), rodents (a separate baiting and proofing program), or specialist jobs like wasp nests or bed bugs, though we handle those too — just ask when you book." }
+    },
+    {
+      "@type": "Question",
+      "name": "How much is a general pest treatment in Cairns?",
+      "acceptedAnswer": { "@type": "Answer", "text": "2026 Cairns bands: a single-pest job (e.g. just ants) starts around $165–$215; a standard general pest treatment covering cockroaches, ants, spiders and silverfish on a 3–4 bedroom home is about $250–$320 and includes a 12-month warranty; larger or double-storey homes and acreage cost a little more. Recurring 6 or 12-monthly plans work out cheaper per visit. We quote on the property, not blind." }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a general pest treatment last in the tropics?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The residual product keeps working for roughly 3–6 months, but in Cairns the wet-season humidity, rain wash-off on external surfaces and year-round breeding shorten that window compared with cooler states. That is why we back it with a 12-month warranty and free call-backs, and why most clients move to a recurring plan that resets the barrier before pests rebuild." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to leave the house during treatment?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Usually not for long. For internal residual spraying we ask you to stay off treated surfaces until they are dry — typically a couple of hours — and to keep pets and small children out of treated rooms during that window. Fish tanks should be covered and pumps switched off briefly. We use low-odour APVMA-registered products applied to label, and we will walk you through exactly what to do before we start." }
+    }
+  ]
+};
+---
+<Layout
+  title="General Pest Control Cairns | Cockroaches, Ants, Spiders"
+  description="General pest control across Cairns — full internal and external treatment for cockroaches, ants, spiders and silverfish. 12-month warranty, recurring plans, family-safe APVMA products."
+  canonical="https://cairnspestmanagement.com.au/services/general-pest-control/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Cockroaches &middot; Ants &middot; Spiders &middot; Silverfish</span>
+      <h1>General pest control across <span class="accent">Cairns</span>.</h1>
+      <p class="hero-sub">
+        The all-rounder treatment that keeps a tropical home liveable &mdash; a
+        thorough internal and external knock-down of cockroaches, ants, spiders
+        and silverfish, backed by a 12-month warranty and free call-backs. In
+        year-round Cairns we recommend a recurring plan so pests never rebuild.
+        From about $250 for a standard home.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>What a general pest treatment includes.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>Inside the home.</h3>
+        <p>
+          We treat the places pests live and travel &mdash; kitchen and laundry
+          skirtings, under appliances, sink and cupboard voids, bathroom and
+          wet-area cracks, wardrobe and storage corners, and the sub-floor and
+          roof void where accessible. Internal work is a combination of a
+          low-odour residual surface spray and discreet <strong>gel baits placed
+          in cracks and voids</strong>, out of reach of children and pets. For
+          German cockroaches the gel does most of the heavy lifting because they
+          rarely cross sprayed surfaces.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Outside and the perimeter.</h3>
+        <p>
+          Most tropical pests come from outside, so the external treatment is the
+          most important part. We spray a residual band around the base of the
+          building, treat the eaves and window frames where spiders web up, dust
+          the weep holes and wall cavities, and treat garden edges, paths, fence
+          lines and around the bins. We also knock down obvious spider and wasp
+          activity around entries and outdoor living areas while we are there.
+        </p>
+
+        <h3 style="margin-top: 2rem;">The Cairns difference.</h3>
+        <p>
+          In the wet tropics there is no winter to give you a free knock-back, and
+          summer rain washes residual product off exposed external surfaces faster
+          than down south. A one-off treatment clears what is there now, but
+          continuous breeding means new cockroaches and ants march straight back
+          in. That is the single biggest reason Cairns homes do better on a
+          <strong>recurring 6 or 12-monthly plan</strong> than on ad-hoc call-outs.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Licensing, chemicals and why we do not cut corners.</h3>
+        <p>
+          Every treatment is carried out by a licensed Queensland
+          <strong>Pest Management Technician</strong> &mdash; the licence
+          administered by Queensland Health under the Medicines and Poisons Act
+          2019, which governs who may apply pesticides commercially and how. We
+          only use products registered by the <strong>APVMA</strong> and apply
+          them strictly to the label rate &mdash; over-dosing is illegal, unsafe
+          and no more effective. Cutting corners in this trade usually means a
+          quick perimeter spray with no internal baiting, no sub-floor or
+          roof-void check, and no warranty &mdash; cheap on the day and back to
+          square one in a month. We would rather do it once, properly, and stand
+          behind it.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Warranty and recurring protection.</h3>
+        <p>
+          A standard general pest treatment carries a <strong>12-month
+          warranty</strong> on cockroaches, ants, spiders and silverfish &mdash;
+          if they come back inside that period, so do we, free. German
+          cockroaches and tropical ant super-colonies sometimes need a follow-up
+          visit to fully clear, which is included. Recurring clients on a 6 or
+          12-monthly plan are re-treated on schedule before the barrier lapses,
+          which works out cheaper per visit and keeps the home consistently clear.
+        </p>
+
+        <p>
+          Need something more targeted? See our dedicated
+          <a href="/services/cockroach-ant-control/">cockroach &amp; ant control</a>,
+          <a href="/services/rodent-control/">rodent control</a> and
+          <a href="/services/termite-control/">termite inspections &amp; treatment</a>,
+          or check pest pressure in your suburb on the
+          <a href="/cairns-region/">Cairns region page</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/edmonton/">Edmonton</a>
+        <a class="area-pill" href="/smithfield/">Smithfield</a>
+        <a class="area-pill" href="/redlynch/">Redlynch</a>
+        <a class="area-pill" href="/trinity-beach/">Trinity Beach</a>
+        <a class="area-pill" href="/earlville/">Earlville</a>
+        <a class="area-pill" href="/cairns-region/">All Cairns Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Book your general pest treatment.</h2>
+        <p>12-month warranty, family-safe products, recurring plans available. Free quote on your home.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Book online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

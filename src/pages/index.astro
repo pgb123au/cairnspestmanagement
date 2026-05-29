@@ -1,0 +1,226 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does pest control cost in Cairns in 2026?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Typical 2026 Cairns bands: a single-pest treatment (e.g. ants or cockroaches) starts around $165–$215; a standard general pest treatment covering cockroaches, ants, spiders and silverfish on a 3–4 bedroom home runs about $250–$320 with a 12-month warranty; multi-pest and recurring protection plans are $260–$320 per visit. Termite inspections to AS 3660.2 are $235–$380, and a detailed AS 4349.3 pre-purchase inspection is $350–$650. Rodent control is roughly $180–$350 depending on baiting and exclusion work. Commercial HACCP-aligned programs are quoted per site on a monthly or quarterly schedule. Heavy infestations or large/older homes cost more — we quote on inspection, never blind." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is pest pressure so high in Cairns?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Cairns sits in the wet tropics, so pests never get a winter knock-back like southern Australia. Warm, humid conditions and a long wet season mean cockroaches, ants, spiders and mosquitoes breed year-round, and the rains push rodents indoors. Cairns is also home to two of Australia's most destructive termites — Coptotermes acinaciformis and the giant northern termite Mastotermes darwiniensis — which stay active 12 months a year. Suburbs backing rainforest and waterways (like Redlynch) and properties with sub-floor moisture face the highest pressure. That is why most Cairns homes do best on a recurring plan rather than one-off treatments." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the chemicals you use safe around children and pets?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. We only use products registered by the APVMA (Australian Pesticides and Veterinary Medicines Authority) and apply them strictly to label rates by a licensed Queensland pest management technician. For general pest jobs we favour low-odour residual sprays and targeted gel baits placed in cracks, voids and out of reach of children and pets. We will let you know how long to keep off treated surfaces (usually until dry, a couple of hours for internal sprays) and tell you which areas are baited so you can keep pets clear. If anyone in the home has sensitivities, tell us and we will plan the treatment around it." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer recurring or ongoing pest control plans?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — and in tropical Cairns we recommend them. A one-off treatment knocks down what is there now, but with year-round breeding new pests move straight back in. Most of our residential clients are on a 6 or 12-monthly general pest plan that resets the chemical barrier and includes a free call-back if anything returns inside the warranty period. Holiday-let and rental owners around the northern beaches use recurring plans to stay on top of turnover-driven cockroach and ant problems. Commercial food premises run monthly or quarterly programs to meet their HACCP and Queensland Health food-safety obligations." }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can you get to a pest problem in Cairns?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For most general pest jobs we can usually book you in within a day or two, and we keep room for urgent problems — a sudden cockroach or rodent issue, wasps near a doorway, or suspected active termites. Pre-purchase termite inspections we will normally fit in within 24–48 hours to suit a settlement deadline, with the written report following within 24 hours of the inspection. We work across Cairns and the surrounding region Monday to Saturday." }
+    }
+  ]
+};
+---
+<Layout
+  title="Pest Control Cairns | Termites, Cockroaches, Ants, Rodents"
+  description="Licensed pest control in Cairns — general pest, termites, cockroaches, ants and rodents. Year-round tropical protection, recurring plans, commercial HACCP programs. Free quote."
+  canonical="https://cairnspestmanagement.com.au/"
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Edmonton &middot; Smithfield &middot; Redlynch &middot; Trinity Beach &middot; Earlville</span>
+      <h1>Pest control for <span class="accent">tropical Cairns</span> &mdash; done properly.</h1>
+      <p class="hero-sub">
+        General pest, termites, cockroaches, ants and rodents. In the wet tropics
+        pests breed all year, so we go beyond a quick spray &mdash; thorough
+        internal and external treatment, recurring protection plans, and
+        AS&nbsp;3660 termite work. Licensed Queensland pest management technicians.
+        APVMA-registered products. AEPMA member. Across Cairns and the Cairns region.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+
+      <div class="hero-trust">
+        <div><strong>Year&#8209;round</strong>Tropical pest protection</div>
+        <div><strong>AS 3660</strong>Termite inspection standard</div>
+        <div><strong>APVMA</strong>Registered, family-safe products</div>
+        <div><strong>AEPMA</strong>Industry-body member</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">What we do</span>
+      <h2>Five pest control services.</h2>
+      <p class="section-lead">
+        One local team for the lot &mdash; from a $250 general pest treatment with
+        a 12-month warranty, through termite inspections and barriers, to
+        HACCP-aligned commercial programs. Every job is carried out by a licensed
+        Queensland pest management technician using APVMA-registered products.
+      </p>
+
+      <div class="svc-grid">
+        <a class="svc-card" href="/services/general-pest-control/">
+          <div class="svc-icon" aria-hidden="true">&#9783;</div>
+          <h3>General pest control</h3>
+          <p>Full internal and external treatment for cockroaches, ants, spiders and silverfish. Low-odour residual sprays plus targeted gel baits, 12-month warranty, free call-backs. From ~$250 for a standard home.</p>
+          <span class="svc-link">See general pest control &rarr;</span>
+        </a>
+
+        <a class="svc-card" href="/services/termite-control/">
+          <div class="svc-icon" aria-hidden="true">&#9888;</div>
+          <h3>Termite inspections &amp; treatment</h3>
+          <p>AS 3660 inspections, Termidor chemical barriers and Sentricon baiting. Coptotermes and Mastotermes are highly active in Cairns year-round. Inspections from ~$235; barriers $1,500&ndash;$5,000.</p>
+          <span class="svc-link">See termite control &rarr;</span>
+        </a>
+
+        <a class="svc-card" href="/services/cockroach-ant-control/">
+          <div class="svc-icon" aria-hidden="true">&#9784;</div>
+          <h3>Cockroach &amp; ant control</h3>
+          <p>Targeted gel and residual treatment for German and American cockroaches and tropical ant species. The two pests that drive most Cairns call-outs &mdash; warranty-backed, recurring plans available.</p>
+          <span class="svc-link">See cockroach &amp; ant control &rarr;</span>
+        </a>
+
+        <a class="svc-card" href="/services/rodent-control/">
+          <div class="svc-icon" aria-hidden="true">&#9866;</div>
+          <h3>Rodent control</h3>
+          <p>Rat and mouse baiting, proofing and roof-void treatment for the wet-season rodent influx. Tamper-resistant stations placed safely away from children and pets. From ~$180.</p>
+          <span class="svc-link">See rodent control &rarr;</span>
+        </a>
+
+        <a class="svc-card" href="/services/commercial-pest-control/">
+          <div class="svc-icon" aria-hidden="true">&#9632;</div>
+          <h3>Commercial pest control</h3>
+          <p>HACCP-aligned programs for cafes, restaurants, body-corporate and rentals across the Cairns region. Documented monthly or quarterly servicing to meet Queensland Health food-safety obligations.</p>
+          <span class="svc-link">See commercial pest control &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <span class="section-eyebrow">Why a Cairns specialist</span>
+      <h2>Three things Cairns pest control has to get right.</h2>
+      <div class="divider"></div>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; max-width: 60rem;">
+        <div>
+          <h3>The wet tropics means year-round pressure.</h3>
+          <p>
+            Cairns does not get the winter slowdown that knocks pests back down
+            south. Warm, humid conditions and a long wet season let cockroaches,
+            ants, spiders and mosquitoes breed continuously, while the rains push
+            rats and mice indoors. A single one-off spray simply gets re-colonised
+            within weeks. That is why we lean on a <strong>recurring protection
+            plan</strong> for most homes &mdash; resetting the chemical barrier on a
+            6 or 12-monthly cycle so pests never get a foothold, with a free
+            call-back if anything returns inside the warranty.
+          </p>
+        </div>
+        <div>
+          <h3>Two destructive termites are active here, not one.</h3>
+          <p>
+            Most of Australia worries about one timber pest. Cairns has two.
+            <strong>Coptotermes acinaciformis</strong> &mdash; the most destructive
+            termite on the continent &mdash; is at peak activity in the tropical
+            north all year. We also sit in the range of <strong>Mastotermes
+            darwiniensis</strong>, the giant northern termite that attacks live
+            trees, cable insulation and even soft concrete. Southern barriers
+            tested only against Coptotermes can fail against Mastotermes pressure,
+            so our termite work follows AS&nbsp;3660 and uses systems rated for both.
+          </p>
+        </div>
+        <div>
+          <h3>Tropical homes need treatment matched to the building.</h3>
+          <p>
+            Cairns housing runs from elevated timber Queenslanders with open
+            sub-floors, to slab-on-ground estate homes, to high-turnover holiday
+            lets on the northern beaches. Each needs a different approach &mdash;
+            sub-floor and roof-void attention on the old timber stock, perimeter
+            and weep-hole treatment on slab homes, and fast turnover-friendly
+            treatments for rentals between guests. We inspect first, then quote
+            the treatment the building actually needs &mdash; not a one-size sheet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">Service areas</span>
+      <h2>Where we treat.</h2>
+      <p class="lead" style="max-width: 42rem; margin-bottom: 1rem;">
+        Cairns and the surrounding region &mdash; the southern growth corridor, the
+        northern beaches, the rainforest-backed valley suburbs and the inner-city
+        and commercial precincts. Most general pest jobs booked within a day or two.
+      </p>
+      <div class="areas-grid">
+        <a class="area-pill" href="/edmonton/">Edmonton</a>
+        <a class="area-pill" href="/smithfield/">Smithfield</a>
+        <a class="area-pill" href="/redlynch/">Redlynch</a>
+        <a class="area-pill" href="/trinity-beach/">Trinity Beach</a>
+        <a class="area-pill" href="/earlville/">Earlville</a>
+        <a class="area-pill" href="/cairns-region/">Cairns Region</a>
+        <span class="area-pill area-pill-static">Cairns City</span>
+        <span class="area-pill area-pill-static">Mooroobool</span>
+        <span class="area-pill area-pill-static">Gordonvale</span>
+        <span class="area-pill area-pill-static">Palm Cove</span>
+        <span class="area-pill area-pill-static">Westcourt</span>
+        <span class="area-pill area-pill-static">Manunda</span>
+        <span class="area-pill area-pill-static">Bayview Heights</span>
+        <span class="area-pill area-pill-static">Gordonvale</span>
+        <span class="area-pill area-pill-static">Clifton Beach</span>
+        <span class="area-pill area-pill-static">Mount Sheridan</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="section-inner">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From booking to protection &mdash; 5 steps.</h2>
+
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><h3>Booking</h3><p>Phone or online quote-request. Most general pest jobs booked within a day or two; urgent and pre-purchase termite jobs prioritised for settlement deadlines.</p></div>
+        <div class="step"><div class="step-num">2</div><h3>Inspection</h3><p>We identify the pest, find the harbourage and entry points, and check conducive conditions &mdash; sub-floor and roof void on termite jobs. No guessing.</p></div>
+        <div class="step"><div class="step-num">3</div><h3>Treatment</h3><p>APVMA-registered residual sprays, gel baits, rodent stations or termite barrier &mdash; applied to label by a licensed technician, safely around children and pets.</p></div>
+        <div class="step"><div class="step-num">4</div><h3>Warranty</h3><p>General pest jobs carry a 12-month warranty with free call-backs. Termite work comes with documentation and a monitoring schedule.</p></div>
+        <div class="step"><div class="step-num">5</div><h3>Recurring plan</h3><p>Optional 6 or 12-monthly protection that resets the barrier before pests rebuild &mdash; the smart play in year-round tropical Cairns.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Ready to sort the pests for good?</h2>
+        <p>Free quote, licensed technicians, family-safe APVMA products, and a 12-month warranty on general pest work.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Book online</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
